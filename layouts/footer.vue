@@ -1,104 +1,132 @@
 <template>
-  <footer class="footer-1 bg-gray-100 py-8 sm:py-12">
-  <div class="container mx-auto px-4">
-    <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
-      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
-        <h5 class="text-xl font-bold mb-6">Features</h5>
-        <ul class="list-none footer-links">
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Cool stuff</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Random feature</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Team feature</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Stuff for developers</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Another one</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Last time</a>
-          </li>
-        </ul>
-      </div>
-      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
-        <h5 class="text-xl font-bold mb-6">Resources</h5>
-        <ul class="list-none footer-links">
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Resource name</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Another resource</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Final resource</a>
-          </li>
-        </ul>
-      </div>
-      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
-        <h5 class="text-xl font-bold mb-6">About</h5>
-        <ul class="list-none footer-links">
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Team</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Locations</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Privacy</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Terms</a>
-          </li>
-        </ul>
-      </div>
-      <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
-        <h5 class="text-xl font-bold mb-6">Help</h5>
-        <ul class="list-none footer-links">
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Support</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Help Center</a>
-          </li>
-          <li class="mb-2">
-            <a href="#" class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
-        <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">Stay connected</h5>
-        <div class="flex sm:justify-center xl:justify-start">
-          <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600">
-            <i class="fab fa-facebook"></i>
-          </a>
-          <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="w-8 h-8 border border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-red-600 hover:border-red-600">
-            <i class="fab fa-google-plus-g"></i>
-          </a>
+  <div class="relative overflow-hidden bg-cream">
+    <footer id="footer" class="relative z-50 pt-24 max-w-7xl mx-auto container">
+      <div>
+        <div class="mx-auto container">
+          <div class="lg:flex">
+            <div class="w-full lg:w-5/12 mb-16 lg:mb-0">
+              <div class="w-full px-6">
+                <nuxt-link to="/" class="flex mb-4">
+                  <img class="h-2 md:w-auto sm:h-5 my-auto" src="/Logo.svg" />
+                  <span class="text-3xl font-bold pb-3 text-darktitle pl-3">
+                    ExpressWeb JS
+                  </span>
+                </nuxt-link>
+
+                <p class="text-xs">A NodeJs Framework for you</p>
+              </div>
+            </div>
+            
+            <div class="w-full lg:w-5/12 flex">
+              <div class="w-full lg:w-1/2 px-6">
+                <ul>
+                  <li class="font-bold lg:text-md text-darktitle mb-6">
+                    DISCOVER
+                  </li>
+                  <li>
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Getting Started</nuxt-link
+                    >
+                  </li>
+                  <li class="mt-4">
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Partners</nuxt-link
+                    >
+                  </li>
+                  <li class="mt-4">
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Resources</nuxt-link
+                    >
+                  </li>
+                   <li class="mt-4">
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Our Team</nuxt-link
+                    >
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="w-full lg:w-1/3 px-6">
+                <ul>
+                  <li class="font-bold lg:text-md text-darktitle mb-6">
+                    DISCUSS
+                  </li>
+                  <li>
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Forum</nuxt-link
+                    >
+                  </li>
+                  <li class="mt-4">
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Blogs</nuxt-link
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="w-full lg:w-2/12 flex">
+            <div class="w-full px-6">
+                <ul>
+                  <li class="font-bold lg:text-md text-darktitle mb-6">
+                    SUPPORT
+                  </li>
+                  <li>
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Contact Us</nuxt-link
+                    >
+                  </li>
+                  <li class="mt-4">
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >FAQ</nuxt-link
+                    >
+                  </li>
+                  <li class="mt-4">
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Terms</nuxt-link
+                    >
+                  </li>
+                   <li class="mt-4">
+                    <nuxt-link to="/"
+                      class="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50"
+                      >Privacy</nuxt-link
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="text-center">Open-source MIT Licensed | Copyright © 2021 ExpressWeb JS</div>
+      <div class="py-10 flex flex-col justify-center items-center">
+        <p
+          class="mt-6 mb-4 text-sm lg:text-sm leading-none text-gray-900 dark:text-gray-50"
+        >
+          Open-source MIT Licensed | Copyright © 2021 ExpressWeb JS
+        </p>
+        <nuxt-link to="/" class="flex">
+          <img class="h-2 w-auto sm:h-6" src="/Logo.svg" />
+        </nuxt-link>
+      </div>
+    </footer>
   </div>
-</footer>
 </template>
 
 <script>
 export default {
-
-}
+  data() {
+    return {};
+  }
+};
 </script>
 
-<style>
-
-</style>
+<style scoped></style>

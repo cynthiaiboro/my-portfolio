@@ -3,6 +3,9 @@
   <hero />
   <features />
   <fiveS />
+  <resources />
+  <partner />
+  <appFooter />
 </div>
 
 </template>
@@ -11,11 +14,20 @@
 import hero from "../components/index/Hero.vue"
 import features from "../components/index/Features.vue"
 import fiveS from "../components/index/5s.vue"
+import resources from "../components/index/Resources.vue"
+import partner from "../layouts/Partner.vue"
+import appFooter from "../layouts/footer.vue"
+
+
+
 export default {
   components: {
     hero,
     features,
-    fiveS
+    fiveS,
+    resources,
+    partner,
+    appFooter
   }
 }
 </script>
