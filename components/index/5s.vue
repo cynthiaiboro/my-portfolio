@@ -1,7 +1,7 @@
 <template>
   <div class="mt-12">
-    <h2 class="text-center text-darktitle font-bold mb-8 font-lg">
-      The 5 S of ExpressWeb Framework
+    <h2 class="text-center text-primary font-bold mb-8 font-lg">
+      TOOLS I WORK WITH
     </h2>
 
     <div class="bg-primary">
