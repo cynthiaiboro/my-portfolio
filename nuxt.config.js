@@ -14,9 +14,6 @@ export default {
   },
 
   target: "static",
-  router: {
-    base: "/My-Portfolio/"
-  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],

@@ -9,12 +9,12 @@
         <div class="text-center bg-white rounded-lg place-self-center py-12 px-6">
             <img class="h-8 mx-auto" src="../../assets/images/real-time.svg" alt="">
             <h4 class="text-darktitle pt-5 font-bold">Responsive view</h4>
-            <p class="text-darkbody text-sm pt-2">Rednders well on various devices and screen sizes</p>
+            <p class="text-darkbody text-sm pt-2">Renders well on various devices and screen sizes</p>
         </div>
          <div class="text-center bg-white rounded-lg place-self-center py-12 px-6">
             <img class="h-8 mx-auto" src="../../assets/images/Microservice.svg" alt="">
             <h4 class="text-darktitle pt-5 font-bold">API Integration</h4>
-            <p class="text-darkbody text-sm pt-2">Interaction with the database with the backend endpoints</p>
+            <p class="text-darkbody text-sm pt-2">Interaction with the database using the backend endpoints</p>
         </div>
          <div class="text-center bg-white rounded-lg place-self-center py-12 px-6">
             <img class="h-8 mx-auto" src="../../assets/images/API.svg" alt="">

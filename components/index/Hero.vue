@@ -35,12 +35,12 @@
             <div
               class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
             >
-              <p>
-                I’m a Software Engineer currently working as the Team Lead of
+              <p class="lg:mr-12">
+                I’m a Frontend Engineer currently working as the Team Lead of
                 the Tradefi Team at The Bulb Africa. I mostly do front-end
                 development with Vue.js and I'm a CSS nerd that's crazy about
                 utility-first CSS. I am design-conscious because I spent my
-                early career stage in design roles. I also contribute as the Doc
+                early career stages in design roles. I also contribute as the Doc
                 Squad Lead for ExpresswebJS opensource project.
               </p>
             </div>
