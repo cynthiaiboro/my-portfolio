@@ -36,12 +36,12 @@
               class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
             >
               <p>
-                I’m a Software Engineer currently working as the Team Lead of
-                the Tradefi Team at The Bulb Africa. I mostly do front-end
-                development with Vue.js and I'm a CSS nerd that's crazy about
-                utility-first CSS. I am design-conscious because I spent my
-                early career stage in design roles. I also contribute as the Doc
-                Squad Lead for ExpresswebJS opensource project.
+                I’m a Frontend Engineer with {{ year - 2019 }}+ years of experience
+                providing high-impact web solutions for diverse industry
+                organizations. Skilled in designing, developing and testing
+                multiple web-based applications incorporating a range of
+                technologies. Aspiring to combine broad background with strong
+                technical skills to keep excelling as a Front-End Developer.
               </p>
             </div>
           </div>
@@ -59,7 +59,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      year: new Date().getFullYear()
+    };
+  }
+};
 </script>
 
 <style></style>
