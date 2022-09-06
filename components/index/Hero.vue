@@ -39,9 +39,9 @@
                 I’m a Frontend Engineer with {{ year - 2019 }}+ years of experience
                 providing high-impact web solutions for diverse industry
                 organizations. Skilled in designing, developing and testing
-                multiple web-based applications incorporating a range of
+                web-based applications incorporating a range of
                 technologies. Aspiring to combine broad background with strong
-                technical skills to keep excelling as a Front-End Developer.
+                technical skills to keep excelling as a Frontend Engineer.
               </p>
             </div>
           </div>

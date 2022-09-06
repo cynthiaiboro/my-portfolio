@@ -193,7 +193,7 @@
                 <button
                   class="bg-primary text-white rounded-lg py-3 px-16 text-sm font-bold mt-10 focus:outline-none shadow-lg hover:scale-105 transform"
                   type="submit"
-                  onclick="window.open('/Cynthia_dickson.pdf')"
+                  onclick="window.open('/Cynthia_Dickson.pdf')"
                 >
                   View Resume
                 </button>
