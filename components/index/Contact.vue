@@ -41,7 +41,7 @@
                   Would you like to work with me?
                 </h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                  Kindly reach out to me with any of my contact details
+                  Feel free to reach out
                 </p>
                 <ul class="list-none mt-6">
                   <li
@@ -193,7 +193,7 @@
                 <button
                   class="bg-primary text-white rounded-lg py-3 px-16 text-sm font-bold mt-10 focus:outline-none shadow-lg hover:scale-105 transform"
                   type="submit"
-                  onclick="window.open('/Cynthia_Dickson.pdf')"
+                  onclick="window.open('https://docs.google.com/document/d/1R4QAngzoDpcw5Q2A-jbcHpcfXGNUUJvy1ZNcHLMM-Cs/edit?usp=sharing')"
                 >
                   View Resume
                 </button>

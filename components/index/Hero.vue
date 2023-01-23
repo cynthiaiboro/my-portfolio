@@ -35,13 +35,11 @@
             <div
               class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
             >
-              <p>
-                I’m a Frontend Engineer with {{ year - 2019 }}+ years of experience
-                providing high-impact web solutions for diverse industry
-                organizations. Skilled in designing, developing and testing
-                web-based applications incorporating a range of
-                technologies. Aspiring to combine broad background with strong
-                technical skills to keep excelling as a Frontend Engineer.
+              <p class="z-30">
+                I’m a Frontend Engineer with over {{ year - 2019 }} years of
+                experience providing high-impact web solutions for diverse
+                industries. Skilled in designing, developing and testing
+                web-based applications incorporating a range of technologies.
               </p>
             </div>
           </div>

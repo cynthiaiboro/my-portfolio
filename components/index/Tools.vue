@@ -5,9 +5,9 @@
         <h2 class="text-center text-primary text-3xl font-bold mb-8 font-lg">
           TOOLS
         </h2>
-        <p class="text-xl font-light mb-6 md:mb-16">
+        <!-- <p class="text-xl font-light mb-6 md:mb-16">
           Tools I work with
-        </p>
+        </p> -->
         <ul
           class="list-reset flex flex-wrap justify-center items-center -mx-6 md:max-w-xxl"
         >
